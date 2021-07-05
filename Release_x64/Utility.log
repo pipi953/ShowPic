@@ -1,0 +1,21 @@
+﻿生成启动时间为 2020/7/29 17:36:54。
+     1>项目“E:\程序\showpic\Utility\Utility.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (.\..\Release_x64\) contains files shared from another project (ShowPic.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I.\..\include /Zi /nologo /W1 /WX- /O2 /Ob2 /Oi /Ot /GL /D DLL_EXPORT /D _WINDLL /D _MBCS /Gm- /EHa /MD /GS /Gy /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /Fo".\..\Release_x64\\" /Fd".\..\Release_x64\vc120.pdb" /Gd /TP /errorReport:prompt IniFile.cpp Utility.cpp
+     1>cl : 命令行 warning D9002: 忽略未知选项“/arch:SSE2”
+         IniFile.cpp
+         Utility.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:".\..\Release_x64\Utility.dll" /NOLOGO /LIBPATH:.\..\Release_x64 kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"Utility.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\..\Release_x64\Utility.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\..\Release_x64\Utility.lib" /MACHINE:X64 /DLL .\..\Release_x64\IniFile.obj
+         .\..\Release_x64\Utility.obj
+         IniFile.obj : 找到 MSIL .netmodule 或使用 /GL 编译的模块；正在使用 /LTCG 重新启动链接；将 /LTCG 添加到链接命令行以改进链接器性能
+            正在创建库 .\..\Release_x64\Utility.lib 和对象 .\..\Release_x64\Utility.exp
+         正在生成代码
+         已完成代码的生成
+         Utility.vcxproj -> E:\程序\showpic\Utility\.\..\Release_x64\Utility.dll
+     1>已完成生成项目“E:\程序\showpic\Utility\Utility.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.81

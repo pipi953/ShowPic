@@ -1,0 +1,5 @@
+LIBRARY	"LogFile"
+  
+EXPORTS
+  LogMessage
+  LogFormat
